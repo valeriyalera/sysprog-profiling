@@ -1,0 +1,15 @@
+
+ Performance counter stats for './matmul_O3':
+
+                13      context-switches                 #      6.3 cs/sec  cs_per_second     
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+              1736      page-faults                      #    839.1 faults/sec  page_faults_per_second
+           2068.83 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+   <not supported>      cpu-cycles                       #      nan GHz  cycles_frequency     
+
+       2.070163243 seconds time elapsed
+
+       2.037909000 seconds user
+       0.032030000 seconds sys
+
+

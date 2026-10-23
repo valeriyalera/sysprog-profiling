@@ -1,0 +1,15 @@
+
+ Performance counter stats for './matmul_O3_ikj':
+
+                 2      context-switches                 #      6.7 cs/sec  cs_per_second     
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+              2758      page-faults                      #   9188.3 faults/sec  page_faults_per_second
+            300.16 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+   <not supported>      cpu-cycles                       #      nan GHz  cycles_frequency     
+
+       0.301200456 seconds time elapsed
+
+       0.290302000 seconds user
+       0.011011000 seconds sys
+
+

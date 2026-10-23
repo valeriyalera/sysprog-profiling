@@ -1,0 +1,15 @@
+
+ Performance counter stats for './matmul_O0':
+
+                40      context-switches                 #      5.9 cs/sec  cs_per_second     
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+              1735      page-faults                      #    254.5 faults/sec  page_faults_per_second
+           6816.74 msec task-clock                       #      1.0 CPUs  CPUs_utilized       
+   <not supported>      cpu-cycles                       #      nan GHz  cycles_frequency     
+
+       6.827678987 seconds time elapsed
+
+       6.780909000 seconds user
+       0.041199000 seconds sys
+
+

@@ -1,0 +1,44 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 2K of event 'cpu-clock'
+# Event count (approx.): 2190190188
+#
+# Overhead  Command    Shared Object      Symbol                     
+# ........  .........  .................  ...........................
+#
+    98.63%  matmul_O3  matmul_O3          [.] multiply
+            |
+            ---multiply
+               main
+               0xe8ea73642f1c
+               __libc_start_main
+               _start
+
+     0.82%  matmul_O3  [kernel.kallsyms]  [k] __pi_clear_page
+            |
+            ---__pi_clear_page
+               get_page_from_freelist
+               __alloc_frozen_pages_noprof
+               alloc_pages_mpol
+               folio_alloc_mpol_noprof
+               vma_alloc_folio_noprof
+               |          
+                --0.50%--vma_alloc_anon_folio_pmd
+
+     0.18%  matmul_O3  [kernel.kallsyms]  [k] handle_softirqs
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] __pi_memcpy_generic
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] call_timer_fn
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] folio_add_new_anon_rmap
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] rmqueue_bulk
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] security_inode_getattr
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] sock_def_readable
+     0.05%  matmul_O3  [kernel.kallsyms]  [k] try_to_wake_up
+     0.05%  matmul_O3  matmul_O3          [.] init
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#

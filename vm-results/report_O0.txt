@@ -1,0 +1,34 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 7K of event 'cpu-clock'
+# Event count (approx.): 7362362355
+#
+# Overhead  Command    Shared Object      Symbol                        
+# ........  .........  .................  ..............................
+#
+    99.44%  matmul_O0  matmul_O0          [.] multiply
+            |
+            ---multiply
+               main
+               0xe40dafff2f1c
+               __libc_start_main
+               _start
+
+     0.31%  matmul_O0  [kernel.kallsyms]  [k] __pi_clear_page
+     0.11%  matmul_O0  matmul_O0          [.] init
+     0.03%  matmul_O0  [kernel.kallsyms]  [k] __rmqueue_pcplist
+     0.03%  matmul_O0  [kernel.kallsyms]  [k] tmigr_handle_remote
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] __thp_vma_allowable_orders
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] _raw_spin_unlock_irq
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] deferred_split_folio
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] el0_da
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] percpu_ref_get_many
+     0.01%  matmul_O0  [kernel.kallsyms]  [k] queue_work_on
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
