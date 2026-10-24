@@ -181,4 +181,4 @@ vm-results/   результати з Linux: SVG, .folded, time_*, stat_*, repor
 mac-energy/   замірі powermetrics (idle, run_*, runtime_*)
 ```
 ## Відео-захист
-ВСТАВ_ПОСИЛАННЯ_YOUTUBE
+
