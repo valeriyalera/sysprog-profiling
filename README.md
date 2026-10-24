@@ -179,7 +179,6 @@ src/          вихідний код (matmul.c, matmul_ikj.c)
 scripts/      flame.sh, measure.sh, loop10.sh
 vm-results/   результати з Linux: SVG, .folded, time_*, stat_*, report_*
 mac-energy/   замірі powermetrics (idle, run_*, runtime_*)
-images/       скріншоти
 ```
 ## Відео-захист
 ВСТАВ_ПОСИЛАННЯ_YOUTUBE
