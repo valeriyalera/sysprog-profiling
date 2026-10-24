@@ -174,6 +174,9 @@ AVX на M3 відсутній (ARM), тому x86-код переглянуто
 - Час C на macOS (≈0,9 с) отримано діленням часу серії на 10.
 
 ## Структура репозиторію
-
+src/          вихідний код (matmul.c, matmul_ikj.c)
+scripts/      flame.sh, measure.sh, loop10.sh
+vm-results/   результати з Linux: SVG, .folded, time_*, stat_*, report_*
+mac-energy/   замірі powermetrics (idle, run_*, runtime_*)
 ## Відео-захист
 ВСТАВ_ПОСИЛАННЯ_YOUTUBE
